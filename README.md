@@ -1,52 +1,101 @@
-# MERN Stack Capstone Project
+# 🌸 PCOS Connect
+PCOS Connect is a simple digital support tool for women living with Polycystic Ovary Syndrome (PCOS).
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+It aims to promote health awareness, lifestyle management, and access to helpful information.
 
-## Assignment Overview
+A React + TypeScript + Vite app to track symptoms, health metrics, and generate personalized insights. Built to help with self-monitoring and health reflection.
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## SDG Alignment:
 
-## Getting Started
+### SDG 3: Good Health & Well-Being
+Promoting reproductive health for young women
+---
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+## 🚀 Features
 
-## Files Included
+- **Symptom Logging**: Track daily symptoms, mood, energy levels, and sleep.
+- **Health Metrics**: Record exercise and other health metrics.
+- **AI‑Powered Insights**: Generate trends and personalized health recommendations.
+- **Dashboard**: View a summary of your logs and metrics.
+- **Resource Library**: Access curated health resources.
+- **Responsive Design**: Built with Tailwind CSS for mobile and desktop.
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+---
 
-## Requirements
+## 🛠️ Tech Stack
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+- **React** with TypeScript  
+- **Vite** for fast builds  
+- **Tailwind CSS** for styling  
+- **Lucide React** for icons  
 
-## Project Ideas
+---
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+## 📦 Getting Started
 
-## Submission
+### Prerequisites
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+- Node.js installed (v16+ recommended)  
+- npm (or yarn)
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+### Installation
 
-## Resources
+1. Clone the repo:
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+   ```bash
+   git clone https://github.com/Waitherero-coder/Final-Project.git
+   cd Final-Project
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+6. Open your browser and go to http://localhost:5173 (default Vite port).
+
+## 🌐 Live Demo
+You can view the live demo of the app here:
+
+[**Final Project — PCOS Connect (Live Demo)**](https://finalproject-f9i6l6a2l-elizabeths-projects-04752da5.vercel.app)
+
+Link to Presentation slide:
+
+([https://www.canva.com/design/DAG5MB1nKUE/gTFgeWyBdQObrnn42O0VFQ/view](https://www.canva.com/design/DAG5MB1nKUE/gTFgeWyBdQObrnn42O0VFQ/view?utm_content=DAG5MB1nKUE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h93933c9c61))
+
+## 📁 Project Structure
+```php
+Final Project/
+├── src/
+│   ├── components/         # React components (Header, Footer, Dashboard, Insights, etc.)
+│   ├── data/               # Mock data used for symptom logs and health metrics
+│   ├── types/              # TypeScript definitions
+│   └── index.css            # Tailwind CSS entry
+├── public/                 # Static files (if any)
+├── vite.config.ts          # Vite configuration
+├── tailwind.config.js      # Tailwind configuration
+├── postcss.config.js       # PostCSS configuration
+└── tsconfig.app.json       # TS config for the app
+```
+
+## 🧪 Usage Examples
+Logging a Symptom
+* Go to the Symptom Tracking view.
+* Fill in mood, symptoms, energy level, and sleep.
+* Click Add Log — the log appears in your dashboard.
+
+Viewing Insights
+* Navigate to Insights.
+* See trends for energy, sleep quality, and symptom frequency.
+* View top symptoms and get health recommendations based on your data.
+
+## 📫 Contact
+- Author: Elizabeth Waithereru
+- GitHub: Waitherero-coder
+- Email: elizabethwaithereru@gmail.com
+
+## 🙏 Acknowledgments
+- Based on Vite + React starter templates
+- [Vercel](https://vercel.com/) for easy and free deployment of the live demo
